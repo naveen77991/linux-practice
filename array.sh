@@ -1,3 +1,2 @@
 #! /bin/bash
-DATE=$(date)
-echo $DATE
+echo "all variables pased to sscript $@"
