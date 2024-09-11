@@ -1,11 +1,14 @@
 
+
 #! /bin/bash
-number=$1
-if [ $number -gt 20 ]
+source="/home/ec2-user/linux-practice/logs"
 
+if -[ -d $source ]
 then
-   echo "given number is  greater than 20"
 
+   echo "source exists"
 else
-    echo "less than 20" 
-fi         
+
+   echo "source not exists"
+fi   
+
