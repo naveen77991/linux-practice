@@ -1,3 +1,3 @@
 #! /bin/bash
-fruits=("apple" "banana")
-echo "$date"
+DATE=$(date)
+echo $DATE
