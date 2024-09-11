@@ -1,6 +1,6 @@
 #! /bin/bash
-source="/root"
-if [ $ source ]
+source="/root/logs"
+if [ $source ]
 then
     echo "$source exists"
 then
