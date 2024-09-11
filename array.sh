@@ -12,5 +12,5 @@ else
    echo "source not exists"
 fi   
 
-FILES=$(find ${source} -name "*.log" )
+FILES=$(find ${source} -name "*.log)
 echo $FILES
