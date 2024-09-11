@@ -1,16 +1,9 @@
-
-
-#! /bin/bash
-source="/home/ec2-user/linux-practice/logs"
-
+#! bin/bash
+source="/root"
 if [ -d $source ]
 then
+    echo "source exists"
+else 
 
-   echo "source exists"
-else
-
-   echo "source not exists"
-fi   
-
-FILES=$(find ${source} -name "*.log)
-echo $FILES
+    echo "not"
+fi    
