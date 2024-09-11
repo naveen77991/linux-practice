@@ -1,13 +1,8 @@
-#! bin/bash
+#! /bin/bash
 source="/root"
-if [ -d $source ]
+if [ $ source ]
 then
-    echo "source exists"
-else 
-
-    echo "not"
-fi   
-
-file=$(find ${source} -name "*.log")
-echo $file
-rm -rf $file
+    echo "$source exists"
+then
+    echo "$source not"
+fi            
