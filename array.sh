@@ -2,3 +2,4 @@
 echo "all variables pased to sscript $@"
 echo " how many variables received is $#"
 echo "ur script name is $0"
+echo "ur script pwd is $pwd"
