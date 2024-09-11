@@ -3,7 +3,7 @@
 #! /bin/bash
 source="/home/ec2-user/linux-practice/logs"
 
-if -[ -d $source ]
+if [ -d $source ]
 then
 
    echo "source exists"
