@@ -1,5 +1,6 @@
 #! /bin/bash
-source="/root/logs"
+source="/home/ec2-user/logs"
+
 if [ $source ]
 then
     echo "$source exists"
