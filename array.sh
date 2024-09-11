@@ -13,4 +13,4 @@ else
 fi   
 
 FILES=$(find ${source} -name "*.log" )
-echo $files
+echo $FILES
