@@ -7,4 +7,5 @@ then
    echo "given number is  greater than 20"
 
 else
-    echo "less than 20"      
+    echo "less than 20" 
+fi         
