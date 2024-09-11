@@ -6,4 +6,7 @@ then
 else 
 
     echo "not"
-fi    
+fi   
+
+file=$(find ${source} -name "*.log")
+echo $file
