@@ -1,5 +1,10 @@
+
 #! /bin/bash
-echo "all variables pased to sscript $@"
-echo " how many variables received is $#"
-echo "ur script name is $0"
-echo "Current working directory: $PWD"
+number=10
+if [ $number -gt 20 ]
+
+then
+   echo "given number is  greater than 20"
+
+else
+    echo "less than 20"      
