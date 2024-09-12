@@ -1,6 +1,7 @@
 #! /bin/bash
 source="/home/ec2-user/logs"
-LOGFILE="/home/ec2-user/logs"
+LOGFILE="/home/ec2-user/logs/h1"
+mkdir - h1
 
 
 if [ -d $source ]
