@@ -11,8 +11,4 @@ else
     echo "statement2"
 fi
 
-file=$(find $source -name "*.log")
-echo $file
-
-rm -rf $file
-     
+echo "hi naveen" >> $LOGFILE
